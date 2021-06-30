@@ -154,7 +154,20 @@ h6{
 .last{
 	background-color:grey;
     color: white;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
 }
+.one  {
+	  flex-direction: column;
+  }
+footer{
+	text-align: center;
+	color: white;
+	background-color: black;
+	padding-top: 2px;
+}
+
   .one , .two ,.three {
 	  flex-direction: row;
   }
