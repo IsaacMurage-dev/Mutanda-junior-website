@@ -1,11 +1,143 @@
 .navbar{
 	background-color: black;
-	text-align: center;
+	height: 60px;
+	align-items: center;
 }
 .nav{
 	color: lightblue;
-	margin-left: 2px;
+	
+}
+.nav2{
+	background-color: lightskyblue;
+	margin-left:120px;
+    margin-right:120px;
+	padding-top:-80px;
+}
+
+#ex{
+	margin-right: 10px;
+}
+.nav-sicon{
+display: flex;
+justify-content: space-between;
+color :white;
+
 }
 .contacts{
-	color: lightblue
+	color: lightblue;
+	text-align: center;
+	margin-right: -850px;
 }
+.menyu{
+	background-color: gray;
+	align-items: center;
+	height:50px;
+	padding-top:1px;
+	display:flex;
+	justify-content:space-around;
+	
+}
+.sidebar{
+padding:30px;
+
+	
+}
+.Fcaps{ 
+	padding:10px;
+	background-color: salmon;
+	margin: 2px;
+
+	
+}
+.sidebar>ul{
+	list-style: none;
+   color: honeydew;
+   display: flex;
+   justify-content: space-around;
+
+}
+ul>li{
+	padding: 5px;
+}
+
+.background1 {
+	margin-top: 0px;
+	background-image: url(./assets/school\ web\ 1\ \(another\ copy\).jpg);
+	background-repeat: no-repeat;
+	background-size:cover;
+	background-position: center;
+    height:70vh;
+	width: 100%;
+	opacity: 0.8;
+	padding-top: 1px;
+}
+.vision{
+	background-color: white;
+}
+.background2 {
+	margin-top: 0px;
+	background-image: url(./assets/school\ image\ 1jpg);
+	background-repeat: no-repeat;
+	background-size:cover;
+	background-position: center;
+    height:70vh;
+	width: 100%;
+	opacity: 0.7;
+	
+}
+.enrollment{
+	background-color: lightskyblue;
+	text-align: center;
+}
+.abc {
+display: flex;
+flex-direction: row;
+}
+.efg {
+	display: flex;
+	flex-direction: row;
+}
+.vision1{
+	padding: 40px;
+}
+.motivation1{
+	padding: 40px;
+}
+.discipline{
+	padding: 40px;
+}
+.spiritual{
+	padding: 40px;
+}
+.development{
+	padding: 40px;
+}
+.hardwork{
+	padding: 40px;
+}
+h5{
+	text-align: center;
+	font-size: xx-large;
+	color:rgb(0, 0, 0)
+}
+.ijk{
+	display: flex;
+	flex-direction: row;
+	font-size: 150%;
+}
+.lmn{
+	display: flex;
+	flex-direction: row;
+	font-size: 140%;
+}
+h6{
+	font-size: large;
+	color:whitesmoke
+}
+.last{
+	background-color:grey;
+    color: white;
+}
+  .one , .two ,.three {
+	  flex-direction: row;
+  }
